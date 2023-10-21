@@ -1,0 +1,63 @@
+2023-10-20 10:53:22.195 +07:00 [INF] Now listening on: https://localhost:7012
+2023-10-20 10:53:22.360 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-20 10:53:22.377 +07:00 [INF] Hosting environment: Development
+2023-10-20 10:53:22.378 +07:00 [INF] Content root path: C:\Users\EliasBui\Desktop\VpBank\VpBank\src\API
+2023-10-20 10:53:23.347 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/index.html - -
+2023-10-20 10:53:24.331 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/index.html - - - 200 - text/html;charset=utf-8 986.7516ms
+2023-10-20 10:53:24.835 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - -
+2023-10-20 10:53:24.838 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/favicon-32x32.png - -
+2023-10-20 10:53:25.227 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-20 10:53:25.667 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/favicon-32x32.png - - - 200 628 image/png 828.4649ms
+2023-10-20 10:53:25.774 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 938.9370ms
+2023-10-20 10:53:29.797 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/api/v1/VpBank/get-all-vp-bank-customer - -
+2023-10-20 10:53:29.818 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.GetAllVpBankCustomer (API)'
+2023-10-20 10:53:29.883 +07:00 [INF] Route matched with {action = "GetAllVpBankCustomer", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllVpBankCustomer() on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-20 10:53:30.267 +07:00 [INF] {"Timestamp":"1697774010052","FullData":"Get all VpBank customer","SourceIp":"fe80::f261:953f:980b:12d1%23","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697799210058"}
+2023-10-20 10:53:31.944 +07:00 [ERR] {"Timestamp":"1697774011944","FullData":"Get all VpBank customer failed","SourceIp":"fe80::f261:953f:980b:12d1%23","ServiceName":"VpBankService","Level":"Error","ContextMap":null,"CustomTimestamp":"1697799211944"}
+2023-10-20 10:53:31.946 +07:00 [ERR] 'System.Collections.Generic.List<object>' does not contain a definition for 'Any'
+2023-10-20 10:53:31.964 +07:00 [INF] Executing ObjectResult, writing value of type 'Common.Base.BaseResultApiResponse`1[[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-20 10:53:31.994 +07:00 [INF] Executed action API.Controllers.Version._1._0.VpBankController.GetAllVpBankCustomer (API) in 2090.8922ms
+2023-10-20 10:53:32.000 +07:00 [INF] Executed endpoint 'API.Controllers.Version._1._0.VpBankController.GetAllVpBankCustomer (API)'
+2023-10-20 10:53:32.008 +07:00 [ERR] HTTP GET /api/v1/VpBank/get-all-vp-bank-customer responded 500 in 2196.6294 ms
+2023-10-20 10:53:32.014 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/api/v1/VpBank/get-all-vp-bank-customer - - - 500 - application/json;+charset=utf-8;+ver=1 2217.3982ms
+2023-10-20 10:55:10.995 +07:00 [INF] Now listening on: https://localhost:7012
+2023-10-20 10:55:11.070 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-20 10:55:11.074 +07:00 [INF] Hosting environment: Development
+2023-10-20 10:55:11.075 +07:00 [INF] Content root path: C:\Users\EliasBui\Desktop\VpBank\VpBank\src\API
+2023-10-20 10:55:11.330 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/index.html - -
+2023-10-20 10:55:11.608 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/index.html - - - 200 - text/html;charset=utf-8 279.8687ms
+2023-10-20 10:55:11.996 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - -
+2023-10-20 10:55:12.283 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 287.5723ms
+2023-10-20 10:55:22.776 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/api/v1/VpBank/get-all-vp-bank-customer - -
+2023-10-20 10:55:22.796 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.GetAllVpBankCustomer (API)'
+2023-10-20 10:55:22.833 +07:00 [INF] Route matched with {action = "GetAllVpBankCustomer", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllVpBankCustomer() on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-20 10:55:23.151 +07:00 [INF] {"Timestamp":"1697774122948","FullData":"Get all VpBank customer","SourceIp":"fe80::f261:953f:980b:12d1%23","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697799322949"}
+2023-10-20 10:56:29.703 +07:00 [INF] Now listening on: https://localhost:7012
+2023-10-20 10:56:29.798 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-20 10:56:29.816 +07:00 [INF] Hosting environment: Development
+2023-10-20 10:56:29.904 +07:00 [INF] Content root path: C:\Users\EliasBui\Desktop\VpBank\VpBank\src\API
+2023-10-20 10:56:30.333 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/index.html - -
+2023-10-20 10:56:30.897 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/index.html - - - 200 - text/html;charset=utf-8 566.6312ms
+2023-10-20 10:56:31.310 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - -
+2023-10-20 10:56:31.784 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 473.9108ms
+2023-10-20 10:56:34.812 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/api/v1/VpBank/get-all-vp-bank-customer - -
+2023-10-20 10:56:34.834 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.GetAllVpBankCustomer (API)'
+2023-10-20 10:56:34.868 +07:00 [INF] Route matched with {action = "GetAllVpBankCustomer", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllVpBankCustomer() on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-20 10:56:35.214 +07:00 [INF] {"Timestamp":"1697774194981","FullData":"Get all VpBank customer","SourceIp":"fe80::f261:953f:980b:12d1%23","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697799394982"}
+2023-10-20 13:52:15.310 +07:00 [INF] Now listening on: https://localhost:7012
+2023-10-20 13:52:16.419 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-20 13:52:16.480 +07:00 [INF] Hosting environment: Development
+2023-10-20 13:52:16.482 +07:00 [INF] Content root path: C:\Users\EliasBui\Desktop\VpBank\VpBank\src\API
+2023-10-20 13:52:16.835 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/index.html - -
+2023-10-20 13:52:17.475 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/index.html - - - 200 - text/html;charset=utf-8 645.8485ms
+2023-10-20 13:52:18.170 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - -
+2023-10-20 13:52:18.734 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 564.1383ms
+2023-10-20 13:52:22.378 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/api/v1/VpBank/get-all-vp-bank-customer - -
+2023-10-20 13:52:22.414 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.GetAllVpBankCustomer (API)'
+2023-10-20 13:52:22.463 +07:00 [INF] Route matched with {action = "GetAllVpBankCustomer", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllVpBankCustomer() on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-20 13:52:22.868 +07:00 [INF] {"Timestamp":"1697784742563","FullData":"Get all VpBank customer","SourceIp":"fe80::f261:953f:980b:12d1%23","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697809942564"}
+2023-10-20 13:52:23.501 +07:00 [INF] Executing ObjectResult, writing value of type 'Common.Base.BaseResultApiResponse`1[[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-20 13:52:23.574 +07:00 [INF] Executed action API.Controllers.Version._1._0.VpBankController.GetAllVpBankCustomer (API) in 1094.375ms
+2023-10-20 13:52:23.585 +07:00 [INF] Executed endpoint 'API.Controllers.Version._1._0.VpBankController.GetAllVpBankCustomer (API)'
+2023-10-20 13:52:23.607 +07:00 [INF] HTTP GET /api/v1/VpBank/get-all-vp-bank-customer responded 200 in 1198.2728 ms
+2023-10-20 13:52:23.614 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/api/v1/VpBank/get-all-vp-bank-customer - - - 200 - application/json;+charset=utf-8;+ver=1 1234.4502ms

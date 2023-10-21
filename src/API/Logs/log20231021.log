@@ -1,0 +1,137 @@
+2023-10-21 20:30:19.783 +07:00 [INF] Now listening on: https://localhost:7012
+2023-10-21 20:30:19.833 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-21 20:30:19.835 +07:00 [INF] Hosting environment: Development
+2023-10-21 20:30:19.837 +07:00 [INF] Content root path: C:\Users\EliasBui\Desktop\VpBank\VpBank\src\API
+2023-10-21 20:30:24.024 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger - -
+2023-10-21 20:30:24.165 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger - - - 301 0 - 145.7849ms
+2023-10-21 20:30:24.180 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/index.html - -
+2023-10-21 20:30:24.349 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/index.html - - - 200 - text/html;charset=utf-8 168.9367ms
+2023-10-21 20:30:24.635 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/swagger-ui.css - -
+2023-10-21 20:30:24.647 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/swagger-ui-standalone-preset.js - -
+2023-10-21 20:30:24.647 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/swagger-ui-bundle.js - -
+2023-10-21 20:30:24.788 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-21 20:30:24.800 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-10-21 20:30:24.834 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/swagger-ui.css - - - 200 144929 text/css 199.4272ms
+2023-10-21 20:30:24.866 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-10-21 20:30:24.870 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 222.1916ms
+2023-10-21 20:30:24.893 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 245.3793ms
+2023-10-21 20:30:25.129 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - -
+2023-10-21 20:30:25.175 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/favicon-32x32.png - -
+2023-10-21 20:30:25.208 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-21 20:30:25.218 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/favicon-32x32.png - - - 200 628 image/png 42.4639ms
+2023-10-21 20:30:25.671 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 542.0418ms
+2023-10-21 20:31:09.475 +07:00 [INF] Now listening on: https://localhost:7012
+2023-10-21 20:31:09.594 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-21 20:31:09.600 +07:00 [INF] Hosting environment: Development
+2023-10-21 20:31:09.601 +07:00 [INF] Content root path: C:\Users\EliasBui\Desktop\VpBank\VpBank\src\API
+2023-10-21 20:31:09.915 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/index.html - -
+2023-10-21 20:31:10.428 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/index.html - - - 200 - text/html;charset=utf-8 520.6587ms
+2023-10-21 20:31:11.001 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - -
+2023-10-21 20:31:12.035 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1033.4459ms
+2023-10-21 20:32:32.649 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/api/v1/VpBank/get-all-vp-bank-customer - -
+2023-10-21 20:32:32.697 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.GetAllVpBankCustomer (API)'
+2023-10-21 20:32:32.749 +07:00 [INF] Route matched with {action = "GetAllVpBankCustomer", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllVpBankCustomer() on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-21 20:32:33.043 +07:00 [INF] {"Timestamp":"1697895152847","FullData":"Get all VpBank customer","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920352847"}
+2023-10-21 20:32:34.180 +07:00 [INF] Executing ObjectResult, writing value of type 'Common.Base.BaseResultApiResponse`1[[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-21 20:32:34.251 +07:00 [INF] Executed action API.Controllers.Version._1._0.VpBankController.GetAllVpBankCustomer (API) in 1493.7078ms
+2023-10-21 20:32:34.277 +07:00 [INF] Executed endpoint 'API.Controllers.Version._1._0.VpBankController.GetAllVpBankCustomer (API)'
+2023-10-21 20:32:34.284 +07:00 [INF] HTTP GET /api/v1/VpBank/get-all-vp-bank-customer responded 200 in 1598.0604 ms
+2023-10-21 20:32:34.411 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/api/v1/VpBank/get-all-vp-bank-customer - - - 200 - application/json;+charset=utf-8;+ver=1 1760.9385ms
+2023-10-21 20:32:58.113 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/api/v1/VpBank/get-log-email-by-id-vp-bank-customer/17ac39c3-91a5-41eb-af71-273ba910e85d - -
+2023-10-21 20:32:58.128 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.GetLogEmailByIdVpBankCustomer (API)'
+2023-10-21 20:32:58.148 +07:00 [INF] Route matched with {action = "GetLogEmailByIdVpBankCustomer", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLogEmailByIdVpBankCustomer(System.Guid) on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-21 20:32:58.197 +07:00 [INF] {"Timestamp":"1697895178197","FullData":"Get Log Email By Id VpBank Customer","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920378197"}
+2023-10-21 20:32:58.268 +07:00 [INF] Executing ObjectResult, writing value of type 'Common.Base.BaseResultApiResponse`1[[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-21 20:32:58.276 +07:00 [INF] Executed action API.Controllers.Version._1._0.VpBankController.GetLogEmailByIdVpBankCustomer (API) in 125.3244ms
+2023-10-21 20:32:58.279 +07:00 [INF] Executed endpoint 'API.Controllers.Version._1._0.VpBankController.GetLogEmailByIdVpBankCustomer (API)'
+2023-10-21 20:32:58.281 +07:00 [INF] HTTP GET /api/v1/VpBank/get-log-email-by-id-vp-bank-customer/17ac39c3-91a5-41eb-af71-273ba910e85d responded 200 in 153.2424 ms
+2023-10-21 20:32:58.283 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/api/v1/VpBank/get-log-email-by-id-vp-bank-customer/17ac39c3-91a5-41eb-af71-273ba910e85d - - - 200 - application/json;+charset=utf-8;+ver=1 170.4781ms
+2023-10-21 20:33:38.412 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-email-log application/json;+ver=1 109
+2023-10-21 20:33:38.429 +07:00 [INF] CORS policy execution successful.
+2023-10-21 20:33:38.443 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.CreateEmailLog (API)'
+2023-10-21 20:33:38.447 +07:00 [INF] Route matched with {action = "CreateEmailLog", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateEmailLog(Model.Request.CreateLogEmailModel) on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-21 20:33:38.497 +07:00 [INF] {"Timestamp":"1697895218497","FullData":"Check Validate Email Log","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920418497"}
+2023-10-21 20:33:38.560 +07:00 [INF] {"Timestamp":"1697895218560","FullData":"Create Email Log","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920418560"}
+2023-10-21 20:33:38.596 +07:00 [INF] Executing ObjectResult, writing value of type 'Common.Base.BaseResultApiResponse`1[[Model.Request.CreateLogEmailModel, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-21 20:33:38.613 +07:00 [INF] Executed action API.Controllers.Version._1._0.VpBankController.CreateEmailLog (API) in 163.4997ms
+2023-10-21 20:33:38.615 +07:00 [INF] Executed endpoint 'API.Controllers.Version._1._0.VpBankController.CreateEmailLog (API)'
+2023-10-21 20:33:38.626 +07:00 [INF] HTTP POST /api/v1/VpBank/create-email-log responded 200 in 184.8607 ms
+2023-10-21 20:33:38.629 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-email-log application/json;+ver=1 109 - 200 - application/json;+charset=utf-8;+ver=1 217.4785ms
+2023-10-21 20:33:57.648 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-vp-bank-customer application/json;+ver=1 203
+2023-10-21 20:33:57.650 +07:00 [INF] CORS policy execution successful.
+2023-10-21 20:33:57.651 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API)'
+2023-10-21 20:33:57.662 +07:00 [INF] Route matched with {action = "CreateVpBankCustomer", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVpBankCustomer(Model.Request.CreateVpBankCustomerModel) on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-21 20:33:57.682 +07:00 [INF] {"Timestamp":"1697895237682","FullData":"Check Validate VpBank customer","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920437682"}
+2023-10-21 20:33:57.733 +07:00 [INF] Executing ObjectResult, writing value of type 'Common.Base.BaseResultApiResponse`1[[Model.Request.CreateVpBankCustomerModel, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-21 20:33:57.745 +07:00 [INF] Executed action API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API) in 80.3449ms
+2023-10-21 20:33:57.749 +07:00 [INF] Executed endpoint 'API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API)'
+2023-10-21 20:33:57.751 +07:00 [INF] HTTP POST /api/v1/VpBank/create-vp-bank-customer responded 400 in 99.9006 ms
+2023-10-21 20:33:57.757 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-vp-bank-customer application/json;+ver=1 203 - 400 - application/json;+charset=utf-8;+ver=1 109.7477ms
+2023-10-21 20:34:15.628 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-vp-bank-customer application/json;+ver=1 204
+2023-10-21 20:34:15.629 +07:00 [INF] CORS policy execution successful.
+2023-10-21 20:34:15.631 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API)'
+2023-10-21 20:34:15.632 +07:00 [INF] Route matched with {action = "CreateVpBankCustomer", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVpBankCustomer(Model.Request.CreateVpBankCustomerModel) on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-21 20:34:15.647 +07:00 [INF] {"Timestamp":"1697895255647","FullData":"Check Validate VpBank customer","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920455647"}
+2023-10-21 20:34:15.650 +07:00 [INF] Executing ObjectResult, writing value of type 'Common.Base.BaseResultApiResponse`1[[Model.Request.CreateVpBankCustomerModel, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-21 20:34:15.651 +07:00 [INF] Executed action API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API) in 5.346ms
+2023-10-21 20:34:15.659 +07:00 [INF] Executed endpoint 'API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API)'
+2023-10-21 20:34:15.661 +07:00 [INF] HTTP POST /api/v1/VpBank/create-vp-bank-customer responded 400 in 30.5441 ms
+2023-10-21 20:34:15.663 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-vp-bank-customer application/json;+ver=1 204 - 400 - application/json;+charset=utf-8;+ver=1 35.0321ms
+2023-10-21 20:35:10.561 +07:00 [INF] Now listening on: https://localhost:7012
+2023-10-21 20:35:10.614 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-21 20:35:10.616 +07:00 [INF] Hosting environment: Development
+2023-10-21 20:35:10.617 +07:00 [INF] Content root path: C:\Users\EliasBui\Desktop\VpBank\VpBank\src\API
+2023-10-21 20:35:10.889 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/index.html - -
+2023-10-21 20:35:11.164 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/index.html - - - 200 - text/html;charset=utf-8 279.3368ms
+2023-10-21 20:35:11.510 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - -
+2023-10-21 20:35:12.095 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 584.9256ms
+2023-10-21 20:35:30.642 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-vp-bank-customer application/json;+ver=1 211
+2023-10-21 20:35:30.666 +07:00 [INF] CORS policy execution successful.
+2023-10-21 20:35:30.681 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API)'
+2023-10-21 20:35:30.725 +07:00 [INF] Route matched with {action = "CreateVpBankCustomer", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVpBankCustomer(Model.Request.CreateVpBankCustomerModel) on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-21 20:35:31.024 +07:00 [INF] {"Timestamp":"1697895330858","FullData":"Check Validate VpBank customer","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920530858"}
+2023-10-21 20:35:31.105 +07:00 [INF] Executing ObjectResult, writing value of type 'Common.Base.BaseResultApiResponse`1[[Model.Request.CreateVpBankCustomerModel, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-21 20:35:31.131 +07:00 [INF] Executed action API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API) in 395.3647ms
+2023-10-21 20:35:31.141 +07:00 [INF] Executed endpoint 'API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API)'
+2023-10-21 20:35:31.146 +07:00 [INF] HTTP POST /api/v1/VpBank/create-vp-bank-customer responded 400 in 467.6014 ms
+2023-10-21 20:35:31.150 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-vp-bank-customer application/json;+ver=1 211 - 400 - application/json;+charset=utf-8;+ver=1 509.8829ms
+2023-10-21 20:36:18.044 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-vp-bank-customer application/json;+ver=1 235
+2023-10-21 20:36:18.050 +07:00 [INF] CORS policy execution successful.
+2023-10-21 20:36:18.053 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API)'
+2023-10-21 20:36:18.061 +07:00 [INF] Route matched with {action = "CreateVpBankCustomer", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVpBankCustomer(Model.Request.CreateVpBankCustomerModel) on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-21 20:36:18.066 +07:00 [INF] {"Timestamp":"1697895378066","FullData":"Check Validate VpBank customer","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920578066"}
+2023-10-21 20:36:18.072 +07:00 [INF] {"Timestamp":"1697895378072","FullData":"Create VpBank customer","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920578072"}
+2023-10-21 20:36:18.850 +07:00 [ERR] {"Timestamp":"1697895378850","FullData":"Create VpBank customer failed","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Error","ContextMap":null,"CustomTimestamp":"1697920578850"}
+2023-10-21 20:36:18.859 +07:00 [ERR] 42804: column "LoanPayMust" is of type numeric but expression is of type text
+
+POSITION: 136
+2023-10-21 20:36:18.861 +07:00 [INF] Executing ObjectResult, writing value of type 'Common.Base.BaseResultApiResponse`1[[Model.Request.CreateVpBankCustomerModel, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-21 20:36:18.864 +07:00 [INF] Executed action API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API) in 800.9993ms
+2023-10-21 20:36:18.878 +07:00 [INF] Executed endpoint 'API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API)'
+2023-10-21 20:36:18.879 +07:00 [ERR] HTTP POST /api/v1/VpBank/create-vp-bank-customer responded 500 in 827.3719 ms
+2023-10-21 20:36:18.882 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-vp-bank-customer application/json;+ver=1 235 - 500 - application/json;+charset=utf-8;+ver=1 843.6023ms
+2023-10-21 20:36:47.032 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-vp-bank-customer application/json;+ver=1 235
+2023-10-21 20:36:47.051 +07:00 [INF] CORS policy execution successful.
+2023-10-21 20:36:47.062 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API)'
+2023-10-21 20:36:47.063 +07:00 [INF] Route matched with {action = "CreateVpBankCustomer", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVpBankCustomer(Model.Request.CreateVpBankCustomerModel) on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-21 20:36:47.079 +07:00 [INF] {"Timestamp":"1697895407078","FullData":"Check Validate VpBank customer","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920607078"}
+2023-10-21 20:36:47.081 +07:00 [INF] {"Timestamp":"1697895407081","FullData":"Create VpBank customer","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920607081"}
+2023-10-21 20:37:41.727 +07:00 [INF] Now listening on: https://localhost:7012
+2023-10-21 20:37:41.862 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-21 20:37:41.992 +07:00 [INF] Hosting environment: Development
+2023-10-21 20:37:41.993 +07:00 [INF] Content root path: C:\Users\EliasBui\Desktop\VpBank\VpBank\src\API
+2023-10-21 20:37:42.188 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/index.html - -
+2023-10-21 20:37:42.567 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/index.html - - - 200 - text/html;charset=utf-8 353.1557ms
+2023-10-21 20:37:43.012 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - -
+2023-10-21 20:37:43.830 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7012/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 817.8587ms
+2023-10-21 20:38:05.341 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-vp-bank-customer application/json;+ver=1 235
+2023-10-21 20:38:05.364 +07:00 [INF] CORS policy execution successful.
+2023-10-21 20:38:05.381 +07:00 [INF] Executing endpoint 'API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API)'
+2023-10-21 20:38:05.440 +07:00 [INF] Route matched with {action = "CreateVpBankCustomer", controller = "VpBank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateVpBankCustomer(Model.Request.CreateVpBankCustomerModel) on controller API.Controllers.Version._1._0.VpBankController (API).
+2023-10-21 20:38:06.162 +07:00 [INF] {"Timestamp":"1697895485800","FullData":"Check Validate VpBank customer","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920685800"}
+2023-10-21 20:38:06.295 +07:00 [INF] {"Timestamp":"1697895486295","FullData":"Create VpBank customer","SourceIp":"fe80::376d:a1ff:f77:b98f%51","ServiceName":"VpBankService","Level":"Information","ContextMap":null,"CustomTimestamp":"1697920686295"}
+2023-10-21 20:38:10.228 +07:00 [INF] Executing ObjectResult, writing value of type 'Common.Base.BaseResultApiResponse`1[[Model.Request.CreateVpBankCustomerModel, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-21 20:38:10.257 +07:00 [INF] Executed action API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API) in 4796.6817ms
+2023-10-21 20:38:10.263 +07:00 [INF] Executed endpoint 'API.Controllers.Version._1._0.VpBankController.CreateVpBankCustomer (API)'
+2023-10-21 20:38:10.267 +07:00 [INF] HTTP POST /api/v1/VpBank/create-vp-bank-customer responded 200 in 4891.9049 ms
+2023-10-21 20:38:10.275 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7012/api/v1/VpBank/create-vp-bank-customer application/json;+ver=1 235 - 200 - application/json;+charset=utf-8;+ver=1 4945.8731ms

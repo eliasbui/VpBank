@@ -1,0 +1,17 @@
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\bin\Debug\net7.0\Model.deps.json
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\bin\Debug\net7.0\Model.dll
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\bin\Debug\net7.0\Model.pdb
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\obj\Debug\net7.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\obj\Debug\net7.0\Model.AssemblyInfoInputs.cache
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\obj\Debug\net7.0\Model.AssemblyInfo.cs
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\obj\Debug\net7.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\obj\Debug\net7.0\Model.dll
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\obj\Debug\net7.0\refint\Model.dll
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\obj\Debug\net7.0\Model.pdb
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\obj\Debug\net7.0\ref\Model.dll
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\bin\Debug\net7.0\Common.dll
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\bin\Debug\net7.0\Domain.dll
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\bin\Debug\net7.0\Domain.pdb
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\bin\Debug\net7.0\Common.pdb
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\obj\Debug\net7.0\Model.csproj.AssemblyReference.cache
+C:\Users\EliasBui\Desktop\VpBank\VpBank\src\Model\obj\Debug\net7.0\Model.csproj.CopyComplete
